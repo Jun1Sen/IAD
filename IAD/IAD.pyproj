@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>IAD</Name>
     <RootNamespace>IAD</RootNamespace>
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
