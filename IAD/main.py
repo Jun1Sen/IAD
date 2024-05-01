@@ -18,4 +18,4 @@ def main_func():
     regression_analysis()
     method_loctya()
     random_forest()
-    testirovanieBD()
+    testirovanieBD() # тест коммент
