@@ -1,21 +1,21 @@
-from klasterizacia import klasterizacia # метод кластеризации данных
+from klasterizacia import klasterizacia # РјРµС‚РѕРґ РєР»Р°СЃС‚РµСЂРёР·Р°С†РёРё РґР°РЅРЅС‹С…
 from SVM_1 import SVM_1 
 from SVM_2 import SVM_2
-from regression_analysis import regression_analysis # регрессионный анализ
-from method_loctya import method_loctya  # метод локтя
-from random_forest import random_forest # случайный лес
-from testirovanieBD import testirovanieBD # тестирование БД
+from regression_analysis import regression_analysis # СЂРµРіСЂРµСЃСЃРёРѕРЅРЅС‹Р№ Р°РЅР°Р»РёР·
+from method_loctya import method_loctya  # РјРµС‚РѕРґ Р»РѕРєС‚СЏ
+from random_forest import random_forest # СЃР»СѓС‡Р°Р№РЅС‹Р№ Р»РµСЃ
+from testirovanieBD import testirovanieBD # С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ Р‘Р”
 from IAD import *
 
-# основной файл запуска со всеми реализованными функциями
+# РѕСЃРЅРѕРІРЅРѕР№ С„Р°Р№Р» Р·Р°РїСѓСЃРєР° СЃРѕ РІСЃРµРјРё СЂРµР°Р»РёР·РѕРІР°РЅРЅС‹РјРё С„СѓРЅРєС†РёСЏРјРё
 
 def main_func():
-    # Вызов всех реализованных функций (Расположи в том порядке, в котором тебе их нужно вызывать)
-    # Если тебе нужно вызвать метод по отдельности, закомментруй остальные функции на время вызова, либо перейди в файл, где находится функция и пропиши там вызов 
+    # Р’С‹Р·РѕРІ РІСЃРµС… СЂРµР°Р»РёР·РѕРІР°РЅРЅС‹С… С„СѓРЅРєС†РёР№ (Р Р°СЃРїРѕР»РѕР¶Рё РІ С‚РѕРј РїРѕСЂСЏРґРєРµ, РІ РєРѕС‚РѕСЂРѕРј С‚РµР±Рµ РёС… РЅСѓР¶РЅРѕ РІС‹Р·С‹РІР°С‚СЊ)
+    # Р•СЃР»Рё С‚РµР±Рµ РЅСѓР¶РЅРѕ РІС‹Р·РІР°С‚СЊ РјРµС‚РѕРґ РїРѕ РѕС‚РґРµР»СЊРЅРѕСЃС‚Рё, Р·Р°РєРѕРјРјРµРЅС‚СЂСѓР№ РѕСЃС‚Р°Р»СЊРЅС‹Рµ С„СѓРЅРєС†РёРё РЅР° РІСЂРµРјСЏ РІС‹Р·РѕРІР°, Р»РёР±Рѕ РїРµСЂРµР№РґРё РІ С„Р°Р№Р», РіРґРµ РЅР°С…РѕРґРёС‚СЃСЏ С„СѓРЅРєС†РёСЏ Рё РїСЂРѕРїРёС€Рё С‚Р°Рј РІС‹Р·РѕРІ 
+    testirovanieBD() 
+    regression_analysis()
+    method_loctya()
     klasterizacia()
     SVM_1()
     SVM_2()
-    regression_analysis()
-    method_loctya()
     random_forest()
-    testirovanieBD() # тест коммент
